@@ -3234,9 +3234,9 @@
     <key>NSWindow Frame SessionsPreferences</key>
     <string>448 312 606 469 0 0 1440 877 </string>
     <key>NSWindow Frame SharedPreferences</key>
-    <string>430 137 918 381 0 0 1920 1057 </string>
+    <string>73 315 918 452 0 0 1920 1057 </string>
     <key>NSWindow Frame iTerm Window 0</key>
-    <string>637 155 650 707 0 0 1920 1057 </string>
+    <string>637 155 898 707 0 0 1920 1057 </string>
     <key>NeverWarnAboutShortLivedSessions_C0369938-1EC7-4FFB-96A8-767F393505E8</key>
     <true/>
     <key>NeverWarnAboutShortLivedSessions_C0369938-1EC7-4FFB-96A8-767F393505E8_selection</key>
@@ -3407,13 +3407,13 @@
           <key>Alpha Component</key>
           <real>1</real>
           <key>Blue Component</key>
-          <real>0.262420654296875</real>
+          <real>0.0</real>
           <key>Color Space</key>
           <string>sRGB</string>
           <key>Green Component</key>
-          <real>0.14860296606589962</real>
+          <real>0.0</real>
           <key>Red Component</key>
-          <real>0.13481813063845038</real>
+          <real>0.0</real>
         </dict>
         <key>Background Image Is Tiled</key>
         <false/>
@@ -3497,7 +3497,7 @@
         <key>Custom Command</key>
         <string>No</string>
         <key>Custom Directory</key>
-        <string>No</string>
+        <string>Recycle</string>
         <key>Default Bookmark</key>
         <string>No</string>
         <key>Disable Printing</key>
@@ -3763,7 +3763,7 @@
         <key>Terminal Type</key>
         <string>xterm-256color</string>
         <key>Transparency</key>
-        <real>0.1102871192893401</real>
+        <real>0.23668900697969542</real>
         <key>Triggers</key>
         <array/>
         <key>Unlimited Scrollback</key>
@@ -6074,7 +6074,7 @@
     <key>SULastCheckTime</key>
     <date>2018-03-02T05:54:04Z</date>
     <key>SavePasteHistory</key>
-    <false/>
+    <true/>
     <key>ShowBookmarkName</key>
     <false/>
     <key>ShowPaneTitles</key>
@@ -6087,6 +6087,8 @@
     <integer>6</integer>
     <key>SwitchWindowModifier</key>
     <integer>4</integer>
+    <key>TabStyle</key>
+    <integer>1</integer>
     <key>TabViewType</key>
     <integer>0</integer>
     <key>ThreeFingerEmulates</key>
