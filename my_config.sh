@@ -11,6 +11,7 @@ cp ./zsh_config/oh-my-zsh//templates/my_zsh.zshrc ~/.zshrc
 
 ./source/oh-my-zsh-agnoster-fcamblor/install
 
+./source/fonts/install.sh
 chsh -s /bin/zsh
 alias ls='ls -G'
 alias ll='ls -l'
