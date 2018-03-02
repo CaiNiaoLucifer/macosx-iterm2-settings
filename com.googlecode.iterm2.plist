@@ -3234,7 +3234,7 @@
     <key>NSWindow Frame SessionsPreferences</key>
     <string>448 312 606 469 0 0 1440 877 </string>
     <key>NSWindow Frame SharedPreferences</key>
-    <string>778 183 918 492 0 0 1920 1057 </string>
+    <string>430 137 918 381 0 0 1920 1057 </string>
     <key>NSWindow Frame iTerm Window 0</key>
     <string>637 155 650 707 0 0 1920 1057 </string>
     <key>NeverWarnAboutShortLivedSessions_C0369938-1EC7-4FFB-96A8-767F393505E8</key>
@@ -3407,13 +3407,13 @@
           <key>Alpha Component</key>
           <real>1</real>
           <key>Blue Component</key>
-          <real>0.24649569392204285</real>
+          <real>0.262420654296875</real>
           <key>Color Space</key>
           <string>sRGB</string>
           <key>Green Component</key>
-          <real>0.24649924039840698</real>
+          <real>0.14860296606589962</real>
           <key>Red Component</key>
-          <real>0.24649259448051453</real>
+          <real>0.13481813063845038</real>
         </dict>
         <key>Background Image Is Tiled</key>
         <false/>
@@ -3763,7 +3763,7 @@
         <key>Terminal Type</key>
         <string>xterm-256color</string>
         <key>Transparency</key>
-        <real>0.3112309644670051</real>
+        <real>0.1102871192893401</real>
         <key>Triggers</key>
         <array/>
         <key>Unlimited Scrollback</key>
