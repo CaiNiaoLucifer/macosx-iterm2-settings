@@ -6,6 +6,10 @@
 # https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor
 # https://github.com/powerline/fonts
 
+./contrib/install-settings.sh
+
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+
 cp ~/.zshrc ~/.zshrc.orig
 cp ./zsh_config/oh-my-zsh//templates/my_zsh.zshrc ~/.zshrc
 
@@ -17,4 +21,3 @@ alias ls='ls -G'
 alias ll='ls -l'
 alias grep='grep --color'
 
-./contrib/install-settings.sh
