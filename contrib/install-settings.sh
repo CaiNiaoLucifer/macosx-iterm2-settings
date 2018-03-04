@@ -9,7 +9,7 @@ main() {
   need_cmd plutil
   check_for_iterm
 
-  local repo="https://raw.githubusercontent.com/fnichol/macosx-iterm2-settings"
+  local repo="https://raw.githubusercontent.com/CaiNiaoLucifer/macosx-iterm2-settings"
 
   local plist="com.googlecode.iterm2.plist"
   local plist_url="$repo/master/$plist"

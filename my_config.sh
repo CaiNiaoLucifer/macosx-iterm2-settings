@@ -17,3 +17,4 @@ alias ls='ls -G'
 alias ll='ls -l'
 alias grep='grep --color'
 
+./contrib/install-settings.sh
