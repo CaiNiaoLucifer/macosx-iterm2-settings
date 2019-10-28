@@ -13,9 +13,12 @@ main() {
 
   local plist="com.googlecode.iterm2.plist"
   local plist_url="$repo/master/$plist"
-  local new_plist="/tmp/${plist}-$$"
+  local new_plist="${plist}"
   local installed_plist="$HOME/Library/Preferences/$plist"
-
+  
+  
+  cp -f "$new_plist" "$installed_plist"
+  exit_with "done"
   header "Downloading plist from $plist_url"
   if curl -sSf "$plist_url" | plutil -convert binary1 -o "$new_plist" -; then
     cp -f "$new_plist" "$installed_plist"
